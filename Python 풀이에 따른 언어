@@ -178,11 +178,12 @@ d['K'] = 6 : d라는 변수에 키가 K일 때 값을 6으로 저장 (기존에 
 print(d) -> {'A':5, 'K':6}
 
 - type 함수
-기본 자료형 : 정수형-class 'int', 실수형-class 'float', 논리형-class 'bool'
-컬렉션 자료형 : 문자열형-class 'str', 리스트형-class 'list', 튜플형-class 'tuple', 딕셔너리형-class 'dict', 세트형-class 'set'
+기본 자료형 : 정수형-<class 'int'>, 실수형-<class 'float'>, 논리형-<class 'bool'>
+컬렉션 자료형 : 문자열형-<class 'str'>, 리스트형-<class 'list'>, 튜플형-<class 'tuple'>, 딕셔너리형-<class 'dict'>, 세트형-<class 'set'>
 
 - 파이썬 type 함수 자료형 확인
-
+print(type(31)) -> <class 'int'>
+print(type(2.7)) -> <class 'float'>
 
 
 
