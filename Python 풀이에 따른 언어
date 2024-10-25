@@ -190,5 +190,3 @@ print(type(2.7)) -> <class 'float'>
 
 
 
-
-
